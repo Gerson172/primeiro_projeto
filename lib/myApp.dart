@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:primeiro_projeto/homeController.dart';
 import 'home_page.dart';
 
 // extendendo de StatelessWidget
@@ -19,8 +20,8 @@ class myApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // ---!!!!!WIDGET MATERIALAPP USADO APENAS UMA VEZ!!!!---
     // materialApp  um componente que deixa pré configurado as propriedades definidas anteriormente.
-    return const MaterialApp(
-      home: homePage()
+    return MaterialApp(
+      home: HomeController(child: HomePage())
     );
   }
 }
