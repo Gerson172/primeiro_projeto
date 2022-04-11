@@ -1,17 +1,11 @@
+// ignore_for_file: camel_case_types
 import 'package:flutter/material.dart';
+import 'myApp.dart';
 
 // inicia o app
 void main() {
-  runApp(myApp());
+  runApp(const myApp());
 }
 
-// extendendo de StatelessWidget
-class myApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    //exemplo de widget -> Center
-    return Center(
-      child: Text('Flutterando', textDirection: TextDirection.rtl),
-    );
-  }
-}
+
+
