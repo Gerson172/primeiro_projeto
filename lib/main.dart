@@ -2,10 +2,9 @@
 import 'package:flutter/material.dart';
 import 'myApp.dart';
 
+
+
 // inicia o app
 void main() {
   runApp(const myApp());
 }
-
-
-
